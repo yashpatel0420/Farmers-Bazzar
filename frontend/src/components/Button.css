@@ -1,0 +1,61 @@
+.cmp-button {
+  font: inherit;
+  padding: 0.5rem 1.5rem;
+  border: 1px solid black;
+  border-radius: 4px;
+  background: black;
+  color: white;
+  cursor: pointer;
+  margin-right: 1rem;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.cmp-button:focus {
+  outline: none;
+}
+
+.cmp-button:hover,
+.cmp-button:active {
+  background: #ff4382;
+  border-color: #ff4382;
+}
+
+.cmp-button--inverse {
+  background: transparent;
+  color: #ff0055;
+}
+
+.cmp-button--inverse:hover,
+.cmp-button--inverse:active {
+  color: white;
+  background: #ff0055;
+}
+
+.cmp-button--danger {
+  background: #830000;
+  border-color: #830000;
+}
+
+.cmp-button--danger:hover,
+.cmp-button--danger:active {
+  background: #f34343;
+  border-color: #f34343;
+}
+
+.cmp-button:disabled,
+.cmp-button:hover:disabled,
+.cmp-button:active:disabled {
+  background: #ccc;
+  color: #979797;
+  border-color: #ccc;
+  cursor: not-allowed;
+}
+
+.cmp-button--small {
+  font-size: 0.8rem;
+}
+
+.cmp-button--big {
+  font-size: 1.5rem;
+}
